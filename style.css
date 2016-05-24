@@ -24,7 +24,7 @@ nav ul {
 nav li {
   list-style: none;
 }
-nav li a {
+nav li a, .pollbutton {
   float: left;
   display: block;
   background-color: #00CA9E;
@@ -32,10 +32,10 @@ nav li a {
   padding: 10px;
   margin: 0px 10px 10px 0px;
 }
-nav li a:hover {
+nav li a:hover, .pollbutton:hover {
   background-color: #008467;
   color: #fff;
 }
-nav {
+nav, .pollholder {
   overflow: hidden;
 }
